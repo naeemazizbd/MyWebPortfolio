@@ -28,6 +28,10 @@ body{
     background-repeat: no-repeat;
     float: left;
     margin-bottom: 80px;
+    display: flex;
+    
+
+    
 
 }
 section{
@@ -62,6 +66,11 @@ section{
     float: left;
     margin-bottom: 80px;
     
+
+    
+    
+   
+    
 }
 .btn2{
     background-image: linear-gradient(45deg, #ff428d, #bb0b51);
@@ -70,11 +79,7 @@ section{
     border-radius: 5px;
     font-size: 16px;
     
-    text-decoration:none;
-    color: black;
-    text-align: center;
-    padding: 10px;
-    box-shadow: 2px 2px 5px 0px rgb(180, 178, 178);
+    
 }
 .btn2:hover{
     background-image: linear-gradient(45deg, #500724, #3b2e33);
@@ -87,6 +92,8 @@ section{
     background-image:url("images/exp-bg.png"); 
     background-repeat: no-repeat;
     background-position: left;
+
+    
     
 }
 .experience-area h2{
