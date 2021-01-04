@@ -1,3 +1,129 @@
-h1{
-    color:red; 
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin:0px; 
+   
+    
 }
+/*page 1 work */
+
+.welcomeTitle{
+    font-size:50px; 
+    
+}
+.myName{
+    color: #ff428d;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin: 2%;
+    padding: 1%;
+    
+}
+.half-width img{
+    width: 100%;
+}
+.page1{
+    background-image:url("images/top-banner.png"); 
+    background-repeat: no-repeat;
+    float: left;
+    margin-bottom: 80px;
+
+}
+section{
+    height:500px; 
+    
+}
+
+.btn1{
+    background-image: linear-gradient(45deg, #ff428d, #bb0b51);
+    border:0px solid;
+    width: 130px;
+    border-radius: 5px;
+    font-size: 16px;
+    float:right;
+    text-decoration:none;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 5px 0px rgb(180, 178, 178);
+}
+.btn1:hover{
+    background-image: linear-gradient(45deg, #500724, #3b2e33);
+    color:white;
+
+}
+
+/* page 2 work*/ 
+.page2{
+    background-image:url("images/dream-bg.png"); 
+    background-repeat: no-repeat;
+    background-position: right;
+    float: left;
+    margin-bottom: 80px;
+    
+}
+.btn2{
+    background-image: linear-gradient(45deg, #ff428d, #bb0b51);
+    border:0px solid;
+    width: 130px;
+    border-radius: 5px;
+    font-size: 16px;
+    
+    text-decoration:none;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 5px 0px rgb(180, 178, 178);
+}
+.btn2:hover{
+    background-image: linear-gradient(45deg, #500724, #3b2e33);
+    color:white;
+
+}
+
+.experience-area{
+    float: left;
+    background-image:url("images/exp-bg.png"); 
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.experience-area h2{
+    margin-left:3%;
+   
+
+}
+
+.orange-title{
+    color:orange;
+}
+
+.box-area{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 5px;
+    padding:20px; 
+    height: 50%;
+    margin-left: 50px;
+}
+#box1{
+    border-left: 8px solid ;
+    border-image: linear-gradient(45deg, #e78e09, #db0000);
+    border-image-slice: 1;
+       
+}
+#box2{
+    border-left:8px solid; 
+    border-image: linear-gradient(45deg, #0e20c0, #920563);
+    border-image-slice: 1;
+
+}
+footer{
+    
+}
+footer p {
+    text-align:center;
+    
+
+}
+
